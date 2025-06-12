@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   uosDiv.addEventListener('click', (e) => {
     e.preventDefault();
 
-    fetch('/uos.html')
+    fetch('../uos.html')
       .then(response => {
         if (!response.ok) throw new Error('페이지 로드 실패');
         return response.text();
