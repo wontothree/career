@@ -1,2 +1,1 @@
-# A Super Simple Career Page
-
+# A Simple Career Page
