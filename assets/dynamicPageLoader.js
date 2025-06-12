@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   uosDiv.addEventListener('click', (e) => {
     e.preventDefault();
 
-    fetch('/uos/index.html')  // 클릭 시 불러올 파일 경로
+    fetch('../uos/index.html')
       .then(response => {
         if (!response.ok) throw new Error('페이지 로드 실패');
         return response.text();
