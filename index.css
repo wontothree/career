@@ -87,7 +87,7 @@ a {
 
 /* Classs "base" */
 .base {
-    width: min(min(95%, 60rem), 70rem);
+    width: min(min(100%, 60rem), 70rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
