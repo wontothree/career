@@ -104,3 +104,17 @@ a {
     padding: 0.5rem;            /* between border and contents (rem, px) */
     border-radius: 5px;         /* rounding of border */
 }
+
+.tag-label {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 2px 6px;
+  border-radius: 8px;
+  font-size: 0.75em;
+  margin-right: 4px;
+  margin-bottom: 2px;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.4;
+  white-space: nowrap;
+}
