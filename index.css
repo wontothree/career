@@ -103,6 +103,7 @@ a {
     border: 2px solid #444;
     padding: 0.5rem;            /* between border and contents (rem, px) */
     border-radius: 5px;         /* rounding of border */
+    padding-left: 15px;
 }
 
 .tag-label {
